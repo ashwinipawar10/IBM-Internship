@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="form-container">
+    <h2>Donate Food</h2>
+            <form id="donation-form">
+                <label for="donor-full-name">Full Name:</label>
+                <input type="text" id="donor-full-name" name="donor-full-name" required>
+                
+                <label for="donor-email">Email:</label>
+                <input type="email" id="donor-email" name="donor-email" required>
+                
+                <label for="donor-mobile">Mobile No.:</label>
+                <input type="tel" id="donor-mobile" name="donor-mobile" required>
+                
+                <label for="donor-state">State:</label>
+                <select id="donor-state" name="donor-state" required>
+                    <option value="" disabled selected>Select your state</option>
+                    <option value="state1">Andhra Pradesh</option>
+                    <option value="state2">Arunachal Pradesh</option>
+                    <option value="state3">Assam</option>
+                    <option value="state4">Bihar</option>
+                    <option value="state5">Chhattisgarh</option>
+                    <option value="state6">Goa</option>
+                    <option value="state7">Gujarat</option>
+                    <option value="state8">Haryana</option>
+                    <option value="state9">Himachal Pradesh</option>
+                    <option value="state10">Jharkhand </option>
+                    <option value="state11">Karnataka</option>
+                    <option value="state12">Kerala</option>
+                    <option value="state13"> Mizoram</option>
+                    <option value="state14">Maharashtra</option>
+                    <option value="state15">Madhya Pradesh</option>
+                    <option value="state16"> Manipur</option>
+                    <option value="state17">Meghalaya</option>
+                    <option value="state18">Nagaland</option>
+                    <option value="state19">Odisha</option>
+                    <option value="state20">Punjab</option>
+                    <option value="state21">Rajasthan</option>
+                    <option value="state22">Sikkim</option>
+                    <option value="state23">Tamil Nadu </option>
+                    <option value="state24">Telangana</option>
+                    <option value="state25">Tripura</option>
+                    <option value="state26">Uttar Pradesh</option>
+                    <option value="state27">Uttarakhand</option>
+                    <option value="state28">West Bengal</option>
+                </select>
+                
+                <label for="donor-city">City:</label>
+                <input type="text" id="donor-city" name="donor-city" required>
+                
+                <label for="donor-pincode">Pincode:</label>
+                <input type="text" id="donor-pincode" name="donor-pincode" required>
+                
+                <label for="donor-address">Full Address:</label>
+                <input type="text" id="donor-address" name="donor-address" required>
+                
+                <button onclick="submit1()">Submit Donation</button>
+                
+            </form>
+    </section>
+
+</body>
+</html>
