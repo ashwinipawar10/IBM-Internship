@@ -1,0 +1,1 @@
+This repository contains the frontend website for the Food Donation Network , built using HTML, CSS, and JavaScript.The website aims to connect food donors with organizations that help distribute food to those in need.
